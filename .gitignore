@@ -1,0 +1,20 @@
+# Ambiente virtual
+.venv/
+
+# Banco de dados
+db.sqlite3
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Dados do script legado
+computadores.json
+
+# Editor
+.vscode/
+.claude/
+
+# Variáveis de ambiente
+.env
