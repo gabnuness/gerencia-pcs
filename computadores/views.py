@@ -19,6 +19,7 @@ def computador_para_dict(pc):
             "ssd":         pc.ssd,
             "processador": pc.processador,
         },
+        "historico": [manutencao_para_dict(m) for m in pc.historico.all()]
     }
 
 
